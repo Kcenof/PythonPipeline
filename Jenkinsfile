@@ -12,7 +12,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Запускаємо тести через Python
-                bat 'python test_app.py'
+                bat '"C:\Users\ymrfe\AppData\Local\Microsoft\WindowsApps\python.exe" test_app.py'
             }
         }
     }
